@@ -1,0 +1,206 @@
+<html>
+<title>PING-HSI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1 {font-family: "Inconsolata", sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>PH</b> TUNG</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#Fūrinkazan" class="w3-bar-item w3-button">Fūrinkazan</a>
+      <a href="#god" style="background-color: #E0E0E0 ;" class="w3-bar-item w3-button">God Jiang</a>
+      <a href="#concept" class="w3-bar-item w3-button">Concept</a>
+      <a href="#Collaborate" style="background-color: #E0E0E0 ;" class="w3-bar-item w3-button">Collaborate</a>
+      <a href="#top" class="w3-bar-item w3-button">TOP</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-panel w3-center" id="top" style="padding:128px 16px">
+  <h1 class="w3-xlarge">Costume & Moda Design</h1>
+  <h1>PING-HSI</h1>
+  <img src="w3images/PHT.jpg" class="w3-image w3-padding-32" width="300" height="300">
+  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+</header>
+
+<!-- Photo Grid -->
+<div class="w3-row-padding w3-grayscale" style="margin-bottom:135px">
+  <div class="w3-half">
+    <img src="w3images/315.jpg" style="width:100%">
+    <img src="w3images/314.jpg" style="width:100%">
+    <img src="w3images/315.png" style="width:100%">
+  </div>
+
+  <div class="w3-half">
+    <img src="w3images/314.png" style="width:100%">
+    <img src="w3images/621.png" style="width:100%">
+    <img src="w3images/chan1.jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container">
+  <div class="w3-content" style="max-width:700px">
+    <h3 class="w3-center w3-padding-64" id="Fūrinkazan"><span class="w3-tag w3-wide">Fūrinkazan</span></h3>
+    <p>After being introduced to the book Sun Tzu's Art of War, I became fascinated by his ideas, in particular Chapter 7, Fūrinkazan - As swift as the wind, as gentle as the forest, as fierce as fire, as unshakable as a mountain.</p>
+    <p>The colouring and aesthetic of this collection was inspired and based on these passages.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>「 其 疾 如 風，其 徐 如 林，侵 掠 如 火，不 動 如 山，難 知 如 陰，動 如 雷 震 」</i></p>
+      <p style="text-align: right;">孫子兵法</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-content" style="max-width:700px">
+  <div class="w3-half">
+    <img src="w3images/1947.jpg" style="width:100%">
+    <img src="w3images/2042.jpg" style="width:100%">
+  </div>
+  
+  <div class="w3-half">
+    <img src="w3images/968.jpg" style="width:100%">
+    <img src="w3images/2024.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-container">
+    <div class="w3-content" style="max-width:700px">
+      <h3 class="w3-center w3-padding-64" id="god"><span class="w3-tag w3-wide">God Jiang</span></h3>
+      <p>Temple environment induces my spiritual awareness to convey the beauty of the Asian Culture. This collection using Asian images for main elements design,  and silhouette is transformed by Asian pattern. Combine different fabric and  colors on cutting yoke to convey Asian Art.</p>
+      <p>Trough transforming diverse mask patterns of the Asian Gods roles to the clothing, creating a ingenious  combination of fashion and traditional art to present Gods.</p>
+      <div class="w3-panel w3-leftbar w3-light-grey">
+        <p><i>「 忠 義 昭 天，懸 掛 在 宮 廟 的 匾 額 銘 記 在 我 們 心 中，為 此 想 對 陣 頭 文 化 有 所 貢 獻 」</i></p>
+        <p style="text-align: right;">董秉羲</p>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  
+<!-- Photo grid -->
+<div class="w3-content" style="max-width:700px">
+  <div class="w3-half">
+    <img src="w3images/9713.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="w3images/9798.jpg" style="width:100%" onclick="onClick(this)">
+  </div>
+    
+  <div class="w3-half">
+    <img src="w3images/9785.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="w3images/9728.jpg" style="width:100%" onclick="onClick(this)">
+  </div>
+    
+  <div class="w3-half">
+    <img src="w3images/9752.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="w3images/9707.jpg" style="width:100%" onclick="onClick(this)">
+  </div>
+
+  <div class="w3-half">
+    <img src="w3images/9729.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="w3images/97296.jpg" style="width:100%" onclick="onClick(this)">
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+  <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption"></p>
+  </div>
+</div>  
+    
+<div class="w3-container">
+  <div class="w3-content" style="max-width:700px">
+    <h3 class="w3-center w3-padding-64" id="concept"><span class="w3-tag w3-wide">Concept</span></h3>
+    <p>Temple environment induces my spiritual awareness to convey the beauty of the Asian Culture. This collection using Asian images for main elements design,  and silhouette is transformed by Asian pattern. Combine different fabric and  colors on cutting yoke to convey Asian Art.</p>
+    <p>Trough transforming diverse mask patterns of the Asian Gods roles to the clothing, creating a ingenious  combination of fashion and traditional art to present Gods.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>「 忠 義 昭 天，懸 掛 在 宮 廟 的 匾 額 銘 記 在 我 們 心 中，為 此 想 對 陣 頭 文 化 有 所 貢 獻 」</i></p>
+      <p style="text-align: right;">董秉羲</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Photo grid -->
+<div class="w3-content" style="max-width:700px">
+  <div class="w3-third">
+    <img src="w3images/524.jpg" style="width:100%" style="width:100%" onclick="onClick(this)">
+    <img src="w3images/318.png" style="width:100%" style="width:100%">
+  </div>
+      
+  <div class="w3-third">
+    <img src="w3images/317.png" style="width:100%" style="width:100%">
+    <img src="w3images/525.jpg" style="width:100%" style="width:100%" onclick="onClick(this)">
+  </div>
+
+  <div class="w3-third">
+    <img src="w3images/523.jpg" style="width:100%" style="width:100%" onclick="onClick(this)">
+    <img src="w3images/316.png" style="width:100%" style="width:100%">
+  </div>
+
+  <div class="w3-container">
+    <div class="w3-content" style="max-width:700px">
+    <h3 class="w3-center w3-padding-64" id="Collaborate"><span class="w3-tag w3-wide">Collaborate</span></h3>
+    <p>Temple environment induces my spiritual awareness to convey the beauty of the Asian Culture. This collection using Asian images for main elements design,  and silhouette is transformed by Asian pattern. Combine different fabric and  colors on cutting yoke to convey Asian Art.</p>
+    <p>Trough transforming diverse mask patterns of the Asian Gods roles to the clothing, creating a ingenious  combination of fashion and traditional art to present Gods.</p>
+      <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>「 忠 義 昭 天，懸 掛 在 宮 廟 的 匾 額 銘 記 在 我 們 心 中，為 此 想 對 陣 頭 文 化 有 所 貢 獻 」</i></p>
+      <p style="text-align: right;">董秉羲</p>
+      </div>
+    </div>
+  </div>
+        
+  <div class="w3-content" style="max-width:700px">
+    <div class="w3-half">
+      <img src="w3images/1322.jpg" style="width:100%">
+      <img src="w3images/132.jpg" style="width:100%">
+    </div>
+          
+    <div class="w3-half">
+      <img src="w3images/131.jpg" style="width:100%">
+      <img src="w3images/1323.jpg" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-64 w3-large">
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Design by <a href="https://www.w3schools.com/w3css/default.asp" title="PING-HSI" target="_blank" class="w3-hover-text-green">PING-HSI</a></p>
+</footer>
+
+<script>
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("img01").style.width = "50%";
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  } 
+</script>  
+</body>
+</html>
